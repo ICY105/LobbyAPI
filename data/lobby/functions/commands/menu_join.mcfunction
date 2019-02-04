@@ -1,0 +1,18 @@
+
+tellraw @s [{"text":"Join Team","color":"dark_aqua","bold":true}]: 
+execute if score team_num lobby_data matches 1.. run tellraw @s [{"text":"[Red]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 20"}},{"selector":"@a[team=red]","color":"dark_green"}]
+execute if score team_num lobby_data matches 2.. run tellraw @s [{"text":"[Dark Red]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 21"}},{"selector":"@a[team=dark_red]","color":"dark_green"}]
+execute if score team_num lobby_data matches 3.. run tellraw @s [{"text":"[Blue]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 22"}},{"selector":"@a[team=blue]","color":"dark_green"}]
+execute if score team_num lobby_data matches 4.. run tellraw @s [{"text":"[Dark Blue]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 23"}},{"selector":"@a[team=dark_blue]","color":"dark_green"}]
+execute if score team_num lobby_data matches 5.. run tellraw @s [{"text":"[Yellow]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 24"}},{"selector":"@a[team=yellow]","color":"dark_green"}]
+execute if score team_num lobby_data matches 6.. run tellraw @s [{"text":"[Gold]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 25"}},{"selector":"@a[team=gold]","color":"dark_green"}]
+execute if score team_num lobby_data matches 7.. run tellraw @s [{"text":"[Green]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 26"}},{"selector":"@a[team=green]","color":"dark_green"}]
+execute if score team_num lobby_data matches 8.. run tellraw @s [{"text":"[Dark Green]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 27"}},{"selector":"@a[team=dark_green]","color":"dark_green"}]
+execute if score team_num lobby_data matches 9.. run tellraw @s [{"text":"[Aqua]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 28"}},{"selector":"@a[team=aqua]","color":"dark_green"}]
+execute if score team_num lobby_data matches 10.. run tellraw @s [{"text":"[Dark Aqua]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 29"}},{"selector":"@a[team=dark_aqua]","color":"dark_green"}]
+execute if score team_num lobby_data matches 11.. run tellraw @s [{"text":"[Gray]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 30"}},{"selector":"@a[team=gray]","color":"dark_green"}]
+execute if score team_num lobby_data matches 12.. run tellraw @s [{"text":"[Dark Gray]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 31"}},{"selector":"@a[team=dark_gray]","color":"dark_green"}]
+execute if score team_num lobby_data matches 13.. run tellraw @s [{"text":"[Light Purple]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 32"}},{"selector":"@a[team=light_purple]","color":"dark_green"}]
+execute if score team_num lobby_data matches 14.. run tellraw @s [{"text":"[Dark Purple]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 33"}},{"selector":"@a[team=dark_purple]","color":"dark_green"}]
+execute if score team_num lobby_data matches 15.. run tellraw @s [{"text":"[White]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 34"}},{"selector":"@a[team=white]","color":"dark_green"}]
+execute if score team_num lobby_data matches 16.. run tellraw @s [{"text":"[Black]: ","color":"green","clickEvent":{"action":"run_command","value":"/trigger lobby set 35"}},{"selector":"@a[team=black]","color":"dark_green"}]

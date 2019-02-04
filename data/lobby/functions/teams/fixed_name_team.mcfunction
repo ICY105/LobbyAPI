@@ -1,0 +1,16 @@
+team modify red nametagVisibility hideForOtherTeams
+team modify dark_red nametagVisibility hideForOtherTeams
+team modify blue nametagVisibility hideForOtherTeams
+team modify dark_blue nametagVisibility hideForOtherTeams
+team modify yellow nametagVisibility hideForOtherTeams
+team modify gold nametagVisibility hideForOtherTeams
+team modify green nametagVisibility hideForOtherTeams
+team modify dark_green nametagVisibility hideForOtherTeams
+team modify aqua nametagVisibility hideForOtherTeams
+team modify dark_aqua nametagVisibility hideForOtherTeams
+team modify gray nametagVisibility hideForOtherTeams
+team modify dark_gray nametagVisibility hideForOtherTeams
+team modify light_purple nametagVisibility hideForOtherTeams
+team modify dark_purple nametagVisibility hideForOtherTeams
+team modify white nametagVisibility hideForOtherTeams
+team modify black nametagVisibility hideForOtherTeams

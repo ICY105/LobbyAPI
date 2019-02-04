@@ -1,0 +1,16 @@
+team modify red deathMessageVisibility hideForOtherTeams
+team modify dark_red deathMessageVisibility hideForOtherTeams
+team modify blue deathMessageVisibility hideForOtherTeams
+team modify dark_blue deathMessageVisibility hideForOtherTeams
+team modify yellow deathMessageVisibility hideForOtherTeams
+team modify gold deathMessageVisibility hideForOtherTeams
+team modify green deathMessageVisibility hideForOtherTeams
+team modify dark_green deathMessageVisibility hideForOtherTeams
+team modify aqua deathMessageVisibility hideForOtherTeams
+team modify dark_aqua deathMessageVisibility hideForOtherTeams
+team modify gray deathMessageVisibility hideForOtherTeams
+team modify dark_gray deathMessageVisibility hideForOtherTeams
+team modify light_purple deathMessageVisibility hideForOtherTeams
+team modify dark_purple deathMessageVisibility hideForOtherTeams
+team modify white deathMessageVisibility hideForOtherTeams
+team modify black deathMessageVisibility hideForOtherTeams

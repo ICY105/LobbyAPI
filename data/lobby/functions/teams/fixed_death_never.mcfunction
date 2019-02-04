@@ -1,0 +1,16 @@
+team modify red deathMessageVisibility never
+team modify dark_red deathMessageVisibility never
+team modify blue deathMessageVisibility never
+team modify dark_blue deathMessageVisibility never
+team modify yellow deathMessageVisibility never
+team modify gold deathMessageVisibility never
+team modify green deathMessageVisibility never
+team modify dark_green deathMessageVisibility never
+team modify aqua deathMessageVisibility never
+team modify dark_aqua deathMessageVisibility never
+team modify gray deathMessageVisibility never
+team modify dark_gray deathMessageVisibility never
+team modify light_purple deathMessageVisibility never
+team modify dark_purple deathMessageVisibility never
+team modify white deathMessageVisibility never
+team modify black deathMessageVisibility never
