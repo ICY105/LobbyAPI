@@ -6,6 +6,7 @@ scoreboard objectives add lobby_game dummy
 scoreboard objectives add lobby_id dummy
 scoreboard objectives add lobby trigger
 scoreboard objectives add lobby_join minecraft.custom:minecraft.leave_game
+scoreboard objectives add lobby_deaths minecraft.custom:minecraft.deaths
 
 #init team data
 team add lobby "Lobby"
@@ -23,6 +24,7 @@ execute unless score game lobby_game matches 1.. run scoreboard players set game
 execute unless score state lobby_data matches 0..1 run scoreboard players set state lobby_data 0
 
 bossbar add lobby_inter "Intermission"
+bossbar set minecraft:lobby_inter color blue
 
 #load lobby structure
 kill @e[tag=lobby_spawn]

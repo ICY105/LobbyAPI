@@ -1,6 +1,5 @@
 
 #bar
-bossbar set minecraft:lobby_inter visible true
 scoreboard players set countdown lobby_data 0
 
 #scoreboard

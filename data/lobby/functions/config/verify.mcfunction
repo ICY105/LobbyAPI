@@ -18,11 +18,15 @@ execute unless score game_reload lobby_data matches 0..1 run scoreboard players 
 execute unless score game_gm lobby_data matches 0..2 run say [Lobby] Invalid config value loaded for Default Game Mode. Resetting to default.
 execute unless score game_gm lobby_data matches 0..2 run scoreboard players set game_gm lobby_data 1
 
-execute unless score game_min_players lobby_data matches 1.. run say [Lobby] Invalid config value loaded for Minimum Start Players. Resetting to default.
-execute unless score game_min_players lobby_data matches 1.. run scoreboard players set game_min_players lobby_data 2
-
 execute unless score game_respawn lobby_data matches 0..1 run say [Lobby] Invalid config value loaded for Manual Respawn. Resetting to default.
 execute unless score game_respawn lobby_data matches 0..1 run scoreboard players set game_respawn lobby_data 0
+
+execute unless score game_auto_end lobby_data matches 0..1 run say [Lobby] Invalid config value loaded for Auto End Game. Resetting to default.
+execute unless score game_auto_end lobby_data matches 0..1 run scoreboard players set game_auto_end lobby_data 1
+
+
+execute unless score game_min_players lobby_data matches 1.. run say [Lobby] Invalid config value loaded for Minimum Start Players. Resetting to default.
+execute unless score game_min_players lobby_data matches 1.. run scoreboard players set game_min_players lobby_data 2
 
 execute unless score game_intermission lobby_data matches 600.. unless score game_intermission lobby_data matches -1 run say [Lobby] Invalid config value loaded for Intermission Length. Resetting to default.
 execute unless score game_intermission lobby_data matches 600.. unless score game_intermission lobby_data matches -1 run scoreboard players set game_intermission lobby_data 2400
