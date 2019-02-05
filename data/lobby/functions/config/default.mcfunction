@@ -74,7 +74,7 @@ scoreboard players set game_spectator lobby_data 1
 scoreboard players set team_enable lobby_data 1
 
 # Mode: 0 for fixed, 1 for dynamic
-scoreboard players set team_mode lobby_data 1
+scoreboard players set team_mode lobby_data 0
 
 
 # Auto Queue Players not on a team: 0 disabled, 1 enabled
