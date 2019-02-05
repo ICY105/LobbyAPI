@@ -1,6 +1,9 @@
 
 #global
 
+execute unless score game_enabled lobby_data matches 0..1 run say [Lobby] Invalid config value loaded for Game Enabled. Falling back to disabled state for safety.
+execute unless score game_enabled lobby_data matches 0..1 run scoreboard players set game_enabled lobby_data 0
+
 execute unless score game_lobby lobby_data matches 0..1 run say [Lobby] Invalid config value loaded for Lobby Structure. Resetting to default.
 execute unless score game_lobby lobby_data matches 0..1 run scoreboard players set game_lobby lobby_data 1
 

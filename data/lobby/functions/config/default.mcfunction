@@ -10,6 +10,10 @@
 
 # Do not edit global commands in real-time! Could mess everything up!
 
+# Global Datapack Switch, if you need to disable it completely without removing it.
+# Note this only affects normal datapack operations, and does not stop function calls you make.
+scoreboard players set game_enabled lobby_data 1
+
 # Enable Lobby Structure: 0 for no structure, 1 for structure
 # If disabled, you will need to manually place an entity with the tag "lobby_spawn",
 # and the "Open Menu" sign (/function lobby:give_menu_sign).
@@ -83,6 +87,10 @@ scoreboard players set team_join lobby_data 1
 # Max Team Size: must be > 2
 scoreboard players set team_size lobby_data 4
 
+#
+# These optons cannot be edited in real time via scoreboard values. However, you can make
+# direct function calls to edit this options.
+#
 
 # Show Death Messages: 0 always, 1 never, 2 team only
 scoreboard players set team_death lobby_data 0

@@ -27,13 +27,14 @@ execute unless score state lobby_data matches 0..1 run scoreboard players set st
 
 bossbar add lobby_inter "Intermission"
 bossbar set minecraft:lobby_inter color blue
+bossbar set minecraft:lobby_inter visible false
 
 #load lobby structure
 kill @e[tag=lobby_spawn]
-execute if score game_lobby lobby_data matches 1 run function lobby:create_lobby
+execute if score game_enabled lobby_data matches 1 if score game_lobby lobby_data matches 1 run function lobby:create_lobby
 
 #post-init function call
-function #lobby:post_init
+execute if score game_enabled lobby_data matches 1 run function #lobby:post_init
 
 #reset game
-execute if score game_reload lobby_data matches 1 run function lobby:game/end
+execute if score game_enabled lobby_data matches 1 if score game_reload lobby_data matches 1 run function lobby:game/end

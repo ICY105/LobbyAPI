@@ -1,3 +1,4 @@
+
 scoreboard players set temp_0 lobby_data -1
 execute if score @s lobby_team matches ..-1 run scoreboard players operation @s lobby_team *= temp_0 lobby_data
 
