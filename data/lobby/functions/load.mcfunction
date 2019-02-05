@@ -1,8 +1,10 @@
 gamerule maxCommandChainLength 128000
+gamerule sendCommandFeedback false
 
 #init scoreboard data
 scoreboard objectives add lobby_data dummy
 scoreboard objectives add lobby_game dummy
+scoreboard objectives add lobby_team dummy
 scoreboard objectives add lobby_id dummy
 scoreboard objectives add lobby trigger
 scoreboard objectives add lobby_join minecraft.custom:minecraft.leave_game

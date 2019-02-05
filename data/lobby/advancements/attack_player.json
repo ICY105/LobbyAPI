@@ -1,0 +1,20 @@
+{
+	"display": {
+		"title": "lobby_punch_player","description": "","icon": {"item": "minecraft:stone"},
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+	"criteria": {
+        "player_hurt_entity": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type":"minecraft:player"
+				}
+			}
+		}
+    },
+	"rewards":{ 
+		"function":"lobby:player/invite_player"
+	}
+}

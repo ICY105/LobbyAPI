@@ -8,8 +8,8 @@ execute if entity @s[team=lobby] run function lobby:player/in_lobby
 execute if entity @s[team=!lobby] run function lobby:player/in_game
 
 #command trigger
-execute if entity @s[team=!lobby] run trigger lobby set 0
-execute if entity @s[team=lobby] run scoreboard players enable @s lobby
+execute if score state lobby_data matches 1 if entity @s[team=!lobby] run trigger lobby set 0
+execute if score state lobby_data matches 0 run scoreboard players enable @s lobby
 
 execute unless score @s lobby matches 0 run function lobby:commands/main
 
