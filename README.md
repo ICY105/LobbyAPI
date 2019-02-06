@@ -1,5 +1,6 @@
-Lobby API is a tool for map/minigame creators to quickly add a robust lobby & team creation system. Currently features:
+Lobby API is a tool for map/minigame creators to quickly add a robust lobby & team creation system. Check out the [wiki](https://github.com/ImCoolYeah105/LobbyAPI/wiki) for information on how to implement LobbyAPI.
 
+Current features:
 * Extensive config file to fine-tune or disable pretty much everything
 * 2 team modes: fixed (set number of teams, up to 16) and dynamic (players create their own teams, up to 100)
 * Both automatic and manual assignment  of teams
