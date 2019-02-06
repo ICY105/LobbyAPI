@@ -8,3 +8,5 @@ Lobby API is a tool for map/minigame creators to quickly add a robust lobby & te
 * Spectator mode
 * Handles players who leave mid match
 * Dynamic player ID system
+
+![lobby](https://i.imgur.com/Oiwt7Mb.png)
