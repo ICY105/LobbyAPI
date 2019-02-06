@@ -5,6 +5,7 @@ Lobby API is a tool for map/minigame creators to quickly add a robust lobby & te
 * Both automatic and manual assignment  of teams
 * Intermission timer that will auto-start the next game if there are enough players
 * Auto-ends game if everyone is dead
+* Pre-build default lobby
 * Spectator mode
 * Handles players who leave mid match
 * Dynamic player ID system
