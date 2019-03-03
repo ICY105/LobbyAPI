@@ -18,26 +18,28 @@ execute if score in_1 lobby_data matches 14 store result score temp_0 lobby_data
 execute if score in_1 lobby_data matches 15 store result score temp_0 lobby_data if entity @a[team=black]
 
 #assign team
-execute if score in_1 lobby_data matches 0 if score temp_0 lobby_data < team_size lobby_data run team join red @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 1 if score temp_0 lobby_data < team_size lobby_data run team join blue @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 2 if score temp_0 lobby_data < team_size lobby_data run team join green @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 3 if score temp_0 lobby_data < team_size lobby_data run team join aqua @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 4 if score temp_0 lobby_data < team_size lobby_data run team join light_purple @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 5 if score temp_0 lobby_data < team_size lobby_data run team join yellow @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 6 if score temp_0 lobby_data < team_size lobby_data run team join dark_red @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 7 if score temp_0 lobby_data < team_size lobby_data run team join dark_blue @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 8 if score temp_0 lobby_data < team_size lobby_data run team join dark_green @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 9 if score temp_0 lobby_data < team_size lobby_data run team join dark_aqua @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 10 if score temp_0 lobby_data < team_size lobby_data run team join dark_purple @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 11 if score temp_0 lobby_data < team_size lobby_data run team join gold @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 12 if score temp_0 lobby_data < team_size lobby_data run team join gray @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 13 if score temp_0 lobby_data < team_size lobby_data run team join dark_gray @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 14 if score temp_0 lobby_data < team_size lobby_data run team join white @r[team=lobby,limit=1,tag=!lobby_editor]
-execute if score in_1 lobby_data matches 15 if score temp_0 lobby_data < team_size lobby_data run team join black @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 0 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join red @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 1 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join blue @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 2 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join green @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 3 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join aqua @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 4 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join light_purple @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 5 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join yellow @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 6 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_red @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 7 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_blue @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 8 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_green @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 9 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_aqua @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 10 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_purple @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 11 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join gold @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 12 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join gray @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 13 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join dark_gray @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 14 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join white @r[team=lobby,limit=1,tag=!lobby_editor]
+execute if score in_1 lobby_data matches 15 if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run team join black @r[team=lobby,limit=1,tag=!lobby_editor]
 
 
 #loop
-execute if score temp_0 lobby_data < team_size lobby_data run scoreboard players remove in_0 lobby_data 1
-execute if score temp_0 lobby_data >= team_size lobby_data run scoreboard players add in_1 lobby_data 1
+execute if score temp_0 lobby_data < in_2 lobby_data if score temp_0 lobby_data < team_size lobby_data run scoreboard players remove in_0 lobby_data 1
+scoreboard players add in_1 lobby_data 1
+execute if score in_1 lobby_data >= team_num lobby_data run scoreboard players add in_2 lobby_data 1
+execute if score in_1 lobby_data >= team_num lobby_data run scoreboard players set in_1 lobby_data 0
 
-execute if score in_0 lobby_data matches 0.. if score in_1 lobby_data matches 0..14 run function lobby:game/assign_teams_fixed
+execute if score in_0 lobby_data matches 0.. if score in_2 lobby_data <= team_size lobby_data if score in_1 lobby_data matches 0..14 run function lobby:game/assign_teams_fixed

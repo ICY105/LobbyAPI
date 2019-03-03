@@ -7,3 +7,7 @@ scoreboard players reset @s lobby_game
 execute at @e[tag=lobby_spawn] run spawnpoint @s ~ ~ ~
 
 gamemode adventure @s
+clear @s
+effect clear @s
+experience set @s 0
+experience set @s 0 levels

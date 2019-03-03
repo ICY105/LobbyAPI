@@ -89,7 +89,7 @@ scoreboard players set team_size lobby_data 4
 
 #
 # These optons cannot be edited in real time via scoreboard values. However, you can make
-# direct function calls to edit this options.
+# direct function calls to edit these options.
 #
 
 # Show Death Messages: 0 always, 1 never, 2 team only
